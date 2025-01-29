@@ -14,7 +14,7 @@ struct ContentView: View {
                     .imageScale(.large)
                     .foregroundStyle(.tint)
                     .background(.thickMaterial)
-                Text("Welcome to groccies, \(username)!")
+                Text("Welcome, \(username)!")
                     .font(.title)
                     .padding()
                 Button("Log Out") {
