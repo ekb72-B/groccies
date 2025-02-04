@@ -44,7 +44,7 @@ struct ContentView: View {
                     .padding(.horizontal)
 
                 Button(action: {
-                    // Simulate login logic
+                    // Si
                     if !username.isEmpty && !password.isEmpty {
                         isLoggedIn = true
                     }
@@ -98,7 +98,7 @@ struct SignUpView: View {
                 .padding(.horizontal)
 
             Button(action: {
-                // Simulate sign-up logic
+                // Simulate
                 if !newUsername.isEmpty && !newPassword.isEmpty {
                     isShowingSignUp = false
                 }
